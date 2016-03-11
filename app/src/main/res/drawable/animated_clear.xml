@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_clear_24dp">
+
+  <target
+      android:animation="@animator/positive_rotation"
+      android:name="rotation_group"/>
+
+  <target android:animation="@animator/scale_down"
+      android:name="rotation_group"/>
+  
+  <target
+      android:animation="@animator/fade_out"
+      android:name="cross"/>
+
+</animated-vector>

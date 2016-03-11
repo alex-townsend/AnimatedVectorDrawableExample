@@ -30,3 +30,9 @@ proguard/
 
 # Android Studio captures folder
 captures/
+
+# Intellij project files
+.idea/
+.idea/workspace.xml
+gen-external-apklibs/
+*.:

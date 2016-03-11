@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="?attr/actionBarSize"
+    >
+
+  <Button
+      android:id="@+id/start_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Start Animation"
+      android:layout_margin="16dp"
+      android:layout_gravity="center_horizontal"
+      />
+
+  <Button
+      android:id="@+id/reset_btn"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Reset FAB"
+      android:layout_marginBottom="16dp"
+      android:layout_gravity="center_horizontal"
+      />
+
+  <android.support.design.widget.FloatingActionButton
+      android:id="@+id/fab"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_margin="@dimen/fab_margin"
+      android:layout_gravity="center_horizontal"
+      app:fabSize="normal"
+      android:clickable="true"
+      />
+
+</LinearLayout>

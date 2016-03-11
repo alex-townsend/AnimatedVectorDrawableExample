@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" android:drawable="@drawable/ic_done_24dp">
+
+  <target
+      android:animation="@animator/negative_rotation"
+      android:name="rotation_group"/>
+
+  <target android:animation="@animator/scale_up"
+      android:name="rotation_group"/>
+
+  <target
+      android:animation="@animator/fade_in"
+      android:name="check"/>
+
+</animated-vector>

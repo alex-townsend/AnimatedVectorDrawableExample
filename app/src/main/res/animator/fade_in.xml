@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+  <objectAnimator
+      android:duration="200"
+      android:propertyName="fillColor"
+      android:valueTo="#FFFFFFFF"
+      android:valueFrom="#00FFFFFF"
+      android:interpolator="@android:interpolator/accelerate_decelerate"
+      />
+</set>
