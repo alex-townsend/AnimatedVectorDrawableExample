@@ -5,6 +5,8 @@ Minimum SDK target is API 23 to make use of AnimationCallbacks for the AnimatedV
 
 Animations on the Vectors do not use path morphing, and should be fully compatible with AnimatedVectorDrawableCompat.  
 
+Originally created to answer http://stackoverflow.com/questions/35944281/animate-fab-button-cross-to-mark.
+
 #Mandatory awful quality GIF below
 
 ![](http://i.imgur.com/LXt3A5v.gif)
